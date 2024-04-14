@@ -10,7 +10,6 @@ export const GifExpertApp = () => {
     if (categories.includes(newCategory)) return;
 
     setCategories([newCategory, ...categories]);
-    // setCategories(['Valorant', ...categories]);
   }
   
   return (
@@ -18,7 +17,6 @@ export const GifExpertApp = () => {
       <h1>GifExpertApp</h1>
 
       <AddCategory
-        // setCategories={ setCategories }
         onNewCategory = { onAddCategory }
       />
       
